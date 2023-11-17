@@ -3,7 +3,7 @@
 ## Motivation behind this library
 I created this library as a contribution to the [Noir ecosystem](https://github.com/noir-lang/noir).
 
-When working through Noir's [documentation on ECDSA Signature Verification](https://noir-lang.org/standard_library/cryptographic_primitives/ecdsa_sig_verification), I realized that input generation for circuits that deal with cryptography is not at all a trivial task. This motivated me to create a rust library that can reliably generate inputs for any message signature by any signing key.
+When working through Noir's [documentation on ECDSA Signature Verification](https://noir-lang.org/standard_library/cryptographic_primitives/ecdsa_sig_verification), I realized that input generation for signature circuits is not a trivial task. This motivated me to create a rust library that can reliably generate inputs for any message signature by any signing key.
 
 This library enables the use of ecdsa signatures over the secp256k1 curve within noir circuits. An example circuit can be found in `circuits/secp256k1/main.nr`.
 
