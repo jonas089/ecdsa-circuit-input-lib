@@ -108,7 +108,7 @@ fn generate_signature_circuit_inputs(){
         }
     */
     // for this test, a placeholder message will be used
-    let message: String = "SOME_SERIALIZED_STRUCT".to_string();
+    let message: Vec<u8> = vec![0;32];
     // initialize the input generator
     let input_generator = InputGenerator{
         sk: deserialized_signing_key,
