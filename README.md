@@ -1,4 +1,5 @@
 # A library to generate inputs for zero knowledge circuits requiring ecdsa (secp256k1) signatures
+<img src="https://github.com/jonas089/ecdsa-circuit-input-lib/blob/master/resources/logo.webp" width="500" height="500">
 
 ## Motivation behind this library
 I created this library as a contribution to the [Noir ecosystem](https://github.com/noir-lang/noir).
